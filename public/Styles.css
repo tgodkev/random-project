@@ -1,0 +1,54 @@
+body{
+    background-color: grey;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+
+.header{
+    display: flexbox;
+    position: absolute;
+    height: 7rem;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    background-color: hotpink;
+    text-align: center;
+}
+
+
+
+.content{
+    display: flexbox;
+    position: absolute;
+    margin-bottom: 200px;
+    margin-left: 300px;
+    margin-top: 20%;
+    padding-top: 10px;
+    height: 200px;
+    width: 200px;
+    border: solid;
+    background-color: lawngreen;
+}
+
+.words{
+    display: flexbox;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: lightcoral;
+    border:dotted;
+}
+
+.footer{
+    display: flexbox;
+    position: fixed;
+    background-color: khaki;
+    margin-top: 46%;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    
+}
